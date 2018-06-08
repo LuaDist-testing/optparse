@@ -1,5 +1,16 @@
 # optparse NEWS - User visible changes
 
+## Noteworthy changes in release 1.2 (2017-06-03) [stable]
+
+### Bug fixes
+
+  - don't crash when first unrecognized argument is also a handler
+    name (boolean, file, finished, flag, etc...)
+
+  - don't hang when help text option table formats long option name
+    on its own line before indented description.
+
+
 ## Noteworthy changes in release 1.1.1 (2016-02-07) [stable]
 
 ### Bug fixes
