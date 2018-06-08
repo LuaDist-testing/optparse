@@ -1,8 +1,4 @@
---[[
- Simple Command Line Option Parsing for Lua 5.1, 5.2 & 5.3
- Copyright (C) 2014-2018 Gary V. Vaughan
-]]
-
+-- -*- lua -*-
 title		= "optparse @PACKAGE_VERSION@ Reference"
 project		= "optparse @PACKAGE_VERSION@"
 description	= [[
@@ -17,7 +13,7 @@ The code is copyright by its author, and released under the MIT
 license (the same license as Lua itself).  There is no warranty.
 ]]
 
-dir		= "../doc"
+dir		= "."
 
 file		= "../lib/optparse/init.lua"
 

@@ -1,11 +1,10 @@
 Parse and Process Command Line Options
 ======================================
 
-Copyright (C) 2014-2018 [Gary V. Vaughan][github]
+Copyright (C) 2014-2016 [Gary V. Vaughan][github]
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://mit-license.org)
 [![travis-ci status](https://secure.travis-ci.org/gvvaughan/optparse.png?branch=master)](http://travis-ci.org/gvvaughan/optparse/builds)
-[![codecov.io](https://codecov.io/gh/gvvaughan/optparse/branch/master/graph/badge.svg)](https://codecov.io/gh/gvvaughan/optparse)
 [![Stories in Ready](https://badge.waffle.io/gvvaughan/optparse.png?label=ready&title=Ready)](https://waffle.io/gvvaughan/optparse)
 
 In the common case, you can write the long-form help output typical of
@@ -59,7 +58,7 @@ The optparse package returns a parser factory when loaded:
     local help = [[
     parseme (optparse spec) 0α1
 
-    Copyright © 2018 Gary V. Vaughan
+    Copyright © 2016 Gary V. Vaughan
     This test program comes with ABSOLUTELY NO WARRANTY.
 
     Usage: parseme [<options>] <file>...
@@ -120,19 +119,6 @@ points when proposing changes:
 0. Follow existing code. There are a lot of useful patterns and avoided
    traps there.
 
-1. 3-character indentation using SPACES in Lua sources: It makes rogue
-   TABs easier to see, and lines up nicely with 'if' and 'end' keywords.
-
-2. Simple strings are easiest to type using single-quote delimiters,
-   saving double-quotes for where a string contains apostrophes.
-
-3. Save horizontal space by only using SPACEs where the parser requires
-   them.
-
-4. Use vertical space to separate out compound statements to help the
-   coverage reports discover untested lines.
-
-5. Prefer explicit string function calls over object methods, to mitigate
-   issues with monkey-patching in caller environment.
+1. 2-character indentation using SPACES in Lua sources.
 
 [issues]: http://github.com/gvvaughan/optparse/issues

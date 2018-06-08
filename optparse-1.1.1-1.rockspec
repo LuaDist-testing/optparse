@@ -1,7 +1,7 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "optparse"
-version = "1.1-1"
+version = "1.1.1-1"
 
 description = {
   summary = "Parse and process command-line options",
@@ -15,12 +15,13 @@ description = {
 
 -- LuaDist source
 source = {
-  tag = "1.1-1",
+  tag = "1.1.1-1",
   url = "git://github.com/LuaDist-testing/optparse.git"
 }
 -- Original source
 -- source = {
---   url = "git://github.com/gvvaughan/optparse.git",
+--   url = "http://github.com/gvvaughan/optparse/archive/v1.1.1.zip",
+--   dir = "optparse-1.1.1",
 -- }
 
 dependencies = {
@@ -30,6 +31,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    optparse = "optparse.lua",
+    optparse			= "lib/optparse/init.lua",
+    ["optparse.version"]	= "lib/optparse/version.lua",
   },
 }
