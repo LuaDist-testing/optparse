@@ -1,7 +1,7 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "optparse"
-version = "1.0-1"
+version = "1.0.1-1"
 
 description = {
   summary = "Parse and process command-line options",
@@ -15,7 +15,7 @@ description = {
 
 -- LuaDist source
 source = {
-  tag = "1.0-1",
+  tag = "1.0.1-1",
   url = "git://github.com/LuaDist-testing/optparse.git"
 }
 -- Original source
